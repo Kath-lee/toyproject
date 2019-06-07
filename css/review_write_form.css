@@ -1,0 +1,171 @@
+/* section */
+section {
+  width:880px;
+  height: 100%;
+  padding: 30px 50px;
+}
+
+/* member form/modify모두 공통적용 */
+h2 {
+  font-size: 22px;
+  line-height:32px;
+  color:#cc1618;
+  font-weight:600;
+}
+
+table{
+  width: 100%;
+  border-collapse: none;
+  border-spacing: none;
+}
+
+th{
+  background: #cc1618;
+  font-weight: 500px;
+  font-size: 14px;
+  color:#ffffff;
+  line-height: 30px;
+  width: 124px;
+}
+
+td {
+  font-size: 14px;
+  color:#555555;
+  line-height: 26px;
+  padding:0 5px;
+}
+
+
+tr{
+  border-bottom: 1px solid #cccccc;
+}
+
+td input[type="button"]{
+  cursor: pointer;
+  display: inline-block;
+  margin:3px 0;
+  width: 50px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-weight:500;
+  border: 0;
+  padding:0px;
+  background: #cc1618;
+}
+
+/*textarea {
+width: 850px;	
+height: 300px;
+resize: none;
+}*/
+
+
+/* 파일 업로드 시작 */
+.filebox input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+  border: 0;
+}
+
+.filebox input[type="file"]:hover {
+background: #444444;
+}
+
+.filebox label {
+  display: inline-block;
+  padding: 4px;
+  color: #ffffff;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #cc1618;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+.filebox label:hover{
+background: #444444;
+}
+
+/* named upload */
+.filebox .upload_name {
+  display: inline-block;
+  padding: 4px;  /* label의 패딩값과 일치 */
+  font-size: inherit;
+  font-family: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: .25em;
+  -webkit-appearance: none; /* 네이티브 외형 감추기 */
+  -moz-appearance: none;
+  appearance: none;
+}
+/* 파일 업로드 끝 */
+
+
+td input[type="button"]:hover, input[type="searchText"]:hover{
+  background: #444444;
+}
+
+
+
+
+
+
+
+label {position:relative}
+
+/*label:after {
+  content:'>';
+  font-size:12px;
+  color:#038a8f;
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform:rotate(90deg);
+  right:20px; top:2px;
+  padding:0 0 2px;
+  border-bottom:1px solid #ddd;
+  position:absolute;
+  pointer-events:none;
+}*/
+
+
+
+
+
+input[type="text"]{
+  width: 338px;
+  height: 28px;
+  background: #ffffff;
+  border: #038a8f solid 1px;
+  margin: 5px 5px 5px 0;
+  padding: 0 5px;
+}
+
+button[type="submit"]{
+  cursor: pointer;
+  display: inline-block;
+  width: 50px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-weight:500;
+  border: 0;
+  padding:0px;
+  background: #068c91;
+}
+button[type="submit"]:hover{
+	background: #ffa518;
+}
+

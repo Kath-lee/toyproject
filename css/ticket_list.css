@@ -1,0 +1,77 @@
+﻿
+
+/* member form/modify모두 공통적용 */
+h2 {
+  font-size: 22px;
+  line-height:32px;
+  color:#cc1628;
+  font-weight:600;
+}
+h3 {
+  font-size: 14px;
+  line-height:18px;
+  color:#555555;
+  font-weight:500;
+}
+h4{
+	font-size: 22px;
+line-height:18px;
+font-weight:800;
+margin-bottom:10px;
+
+
+}
+
+table{
+  width: 100%;
+  border-collapse: none;
+  border-spacing: none;
+  margin-bottom:100px;/*******************************/
+}
+thead th{
+  border-bottom:3px #cc1628 solid;
+  font-weight: 500px;
+  font-size: 14px;
+  color:#5;
+  line-height: 30px;
+}
+
+
+.td_con td {
+  font-size: 15px;
+  color:#555555;
+  line-height: 26px;
+  padding:0 5px;
+}
+
+tbody td.no_ticket{
+  font-size: 14px;
+  line-height: 200px;
+  text-align: center;
+  color:#999999;
+  
+}
+
+
+tbody tr{
+  border-bottom: 1px solid #cccccc;
+}
+
+td input[type="button"]{
+  cursor: pointer;
+  display: inline-block;
+  margin:3px 0;
+  width: 50px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  font-weight:500;
+  border: 0;
+  padding:0px;
+  background: #555555;
+}
+td input[type="button"]:hover{
+  background: #cc1628;
+}
+

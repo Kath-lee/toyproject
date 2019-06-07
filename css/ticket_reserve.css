@@ -1,0 +1,184 @@
+
+
+/* Login_form, find_id, find_pw, re_pw 공통적용 */
+h2 {
+	font-size: 22px;
+	line-height:32px;
+	color:#cc1628;
+	font-weight:600;
+}
+h3 {
+	font-size: 14px;
+	line-height:18px;
+	color:#555555;
+	font-weight:500;
+}
+.ticket_form{
+	margin: 0 auto;
+	padding: 60px 0 200px 0;
+	text-align:middle;
+	max-width: 450px;
+	width: 450px;
+	vertical-align:middle;
+}
+
+table td{
+	font-weight:600;
+	color: #555555;
+	font-size: 14px;
+	line-height: 20px;
+}
+span {
+	color: #ffa518;
+}
+
+.line_title {
+	display: inline-block;
+	width:95px;
+	margin: 5px 5px 5px 0;
+	line-height:40px;
+	color: #555555;
+	font-weight:500;
+	font-size: 14px;
+}
+
+
+select {
+	width: 350px;
+	height: 40px;
+	border: #cc1628 solid 1px;
+	font-size: 16px;
+    padding:5px;
+    margin: 0;
+    background: #ffffff;
+    color:#555555;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+option strong{
+	color:#aaaaaa;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+label {position:relative}
+label:after {
+    content:'>';
+    font-size:12px;
+    color:#038a8f;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #cc1628;
+    position:absolute;
+    pointer-events:none;
+}
+label:before {
+    content:'';
+    right:6px; 
+    top:0px;
+    width:20px;
+    height:20px;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+
+.reserve, .reserve_modify{
+	width:500px;
+}
+.reserve input[type="text"]{
+		width: 350px;
+}
+.reserve_modify input[type="text"]{
+	width: 338px;
+}
+input[type="text"]{
+	display: inline-block;
+	height: 38px;
+	background: #ffffff;
+	border: #cc1628 solid 1px;
+	padding: 0 5px;
+}
+.reserve input[type="submit"] {
+	display: inline-block;
+	float: left;
+	width: 450px;
+	background: #068c91;
+}
+/* 수정하기시 */
+
+.subbtn input[type="button"]{
+	display: inline-block;
+	float: left;
+	width: 222.5px;
+	margin: 20px 5px 0 0;
+	background:#555555;
+}
+.mainbtn input[type="button"] {
+	display: inline-block;
+	float: left;
+	width: 222.5px;
+	margin-top: 20px;
+	background: #cc1628;
+}
+.reserve_btn input[type="button"] {
+	display: inline-block;
+	float: left;
+	width: 450px;
+	margin-top: 20px;
+	background: #cc1628;
+}
+input[type="button"], input[type="submit"]{
+	cursor: pointer;
+	display: inline-block;
+	height: 40px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	font-weight:600;
+	border: 0;
+	padding:0px;
+}
+input[type="button"]:hover, input[type="submit"]:hover{
+	background: #ee283b;
+}
+
+.reser_info{
+width:860px;
+padding: 10px;
+border:1px solid #cc1628;
+margin: 10px 0;
+font:14px;
+color:#555555;
+line-height: 20px;
+}
+
+.info_title{
+	display: inline-block;
+	font-weight: 600;
+	margin: 0 5px;
+	line-height:24px;
+	color: #555555;
+	font-size: 18px;
+}
+.info_title strong{
+	color: #cc1628;
+}
+.info_content{
+	display: inline-block;
+	margin: 10px 5px 5px 0;
+	line-height:40px;
+	color: #555555;
+	font-size: 18px;
+	padding-left:5px;
+}
