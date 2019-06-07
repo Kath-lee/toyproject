@@ -1,0 +1,122 @@
+/* section */
+section {
+	width:880px;
+	padding: 30px 50px;
+	background: #ffffff;
+	height:400px;
+}
+
+/* Login_form, find_id, find_pw, re_pw 공통적용 */
+h2 {
+	font-size: 22px;
+	line-height:32px;
+	color:#cc1628;
+	font-weight:600;
+}
+h3 {
+	font-size: 14px;
+	line-height:18px;
+	color:#555555;
+	font-weight:500;
+}
+.loginform, .findid, .findpw, .re_pw, .drop {
+	margin: 0 auto;
+	padding-top: 80px;
+	text-align:middle;
+	max-width: 300px;
+	width: 300px;
+	vertical-align:middle;
+}
+
+.input_line, .line{
+	width: 300px;
+	margin: 5px 0;
+}
+.loginform p, .findid p, .findpw p, .re_pw p, .drop p {
+	display: inline-block;
+	width:90px;
+	padding-right: 5px;
+	line-height:40px;
+	color: #555555;
+	font-weight:600;
+	font-size: 15px;
+}
+#alert{
+	display: inline-block;
+	width:300px;
+	line-height:20px;
+	color: #555555;
+	font-size:12px;
+	color:#FF5050;
+}
+
+.input_line input {
+	display: inline-block;
+	width: 188px;
+	height: 38px;
+	background: #ffffff;
+	border: #cc1628 solid 1px;
+	padding: 0 5px;
+}
+
+/* login_form.php 단일 적용*/
+.input_line input[type="submit"]{
+	cursor: pointer;
+	display: block;
+	width: 295px;
+	height: 40px;
+	background: #cc1628;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	font-weight:600;
+	border: 0;
+	padding:0px;
+}
+.input_line input[type="submit"]:hover{
+	background: #ee283b;
+}
+.input_line2 { 
+	display:inline-block;
+	width:295px;
+	font-size:14px;
+	line-height:18px;
+	color:#555555;
+	text-align:center;
+}
+.input_line2 a{
+text-decoration: underline;
+}
+.input_line2 a:hover{
+	color:#ee283b;
+}
+
+/* find_id,find_pw, re_pw 단일 적용 */
+.re_pw span, .drop span{
+	display: inline-block;
+	line-height:40px;
+	width:150px;
+	color: #555555;
+	font-weight:bold;
+	font-size: 14px;
+}
+span {
+	color: #FF5050;
+	font-size: 12px;
+}
+.input_line input[type="button"]{
+	cursor: pointer;
+	display: block;
+	width: 295px;
+	height: 40px;
+	background: #cc1628;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	font-weight:600;
+	border: 0;
+	padding:0px;
+}
+.input_line input[type="button"]:hover{
+	background: #ee283b;
+}

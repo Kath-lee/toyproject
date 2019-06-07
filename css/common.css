@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+/* css reset */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+a img {border: none;} 
+a { selector-dummy : expression(this.hideFocus=true);}
+a, a:active, a:focus, a:hover, a:link, a:visited { 
+    -moz-outline:none; 
+    outline:none; 
+    color: #666; 
+    text-decoration: none;}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* body */
+body{
+	background:#ffffff;
+    font-family: '나눔고딕',NanumGothic, Dotum, '돋움', sans-serif;
+	max-width:100%;
+	width:100%;
+}
+
+/* section */
+section {
+	width:880px;
+	min-height:600px;
+	padding: 30px 50px;
+	background: #ffffff;
+	height:100%;
+	margin: 0 auto;
+}
+
+/* scroll top */
+.scroll_top {
+    position: fixed;
+    bottom:20px;
+    right:30px;
+    background: url('../img/top.png') no-repeat;
+    width:48px;
+    height:48px;
+}
+
+/* top_button */
+header{
+	max-width:100%;
+	width:100%;
+	text-align:center;
+	border-bottom:2px solid #ee283b;
+}
+nav{
+    display:inline-block;
+	max-width:920px;
+	width:920px;
+	padding: 15px 0;
+}
+#top_login{
+    line-height: 18px; 
+    font-size: 14px; 
+	font-weight:600;
+    text-align: right;
+	color:#444444;
+}
+#top_login a:hover{
+	color:#ee283b;
+}
+
+
+body.log_m1 a.log_m1,
+body.log_m2 a.log_m2{
+    color:#ee283b;
+}
+
+#top_login p{
+    display: inline-block; 
+    color:#ee283b;
+	margin:0;
+}
+
+/* top_menu */
+.top_menu {
+    padding-top: 15px; 
+    background: #ffffff;
+}
+.top_menu li{
+    display:inline-block;
+	margin:0 15px;
+}
+.top_menu li img{
+    vertical-align:middle;
+}
+.top_menu li a{
+    display:inline-block; 
+    color: #444444; 
+    font-weight: 600; 
+    font-size: 24px; 
+    text-align: center;
+}
+.top_menu li a:hover{
+    color: #ee283b;
+}
+/*
+body.menu1 a.menu1,
+body.menu2 a.menu2,
+body.menu3 a.menu3,
+body.menu4 a.menu4,
+body.menu5 a.menu5,
+body.menu6 a.menu6{
+    color:#ee283b;
+}*/
+
+/* tabs */
+#tab {
+width:880px;
+height:36px;
+border-bottom:2px solid #cc1628;
+}
+
+#tab li {
+  float:left;
+  display:inline-block;
+}
+#tab li a {
+  display:inline-block;
+  line-height: 36px;
+  padding: 0 20px;
+  font-weight:600;
+  font:14px;
+  color: #ffffff;
+  margin-right:5px;
+}
+#tab li a:hover {
+  background: #444;
+}
+
+section.tab1 a.tab1,
+section.tab2 a.tab2,
+section.tab3 a.tab3{
+  background: #cc1628;
+}
+
+section.tab1 a.tab2,
+section.tab1 a.tab3,
+section.tab2 a.tab1,
+section.tab2 a.tab3,
+section.tab3 a.tab1,
+section.tab3 a.tab2{
+  background: #444;
+}
+
+.tab_content{
+  margin:20px 10px;
+}
+
+/* paging */
+#paging {
+display: inline-block;
+margin: 10px auto;
+min-width:500px;
+width:500px;
+overflow: hidden;
+font-size:18px;
+color: #cc0000;
+}
+
+#paging a {
+display: inline-block;
+margin: 0 2px;
+background:#ffffff;
+padding: 0 5px;
+line-height:30px;
+min-width:18px;
+text-align:center;
+font-size:18px;
+color: #555555;
+font-weight: 600;
+}
+#paging a:hover{
+display: inline-block;
+
+margin: 0 2px;
+background:#cc1628;
+padding: 0 5px;
+line-height:28px;
+min-width:18px;
+text-align:center;
+font-size:18px;
+color: #ffffff;
+font-weight: 600;
+}
+#paging .page_now {
+color: #ffffff;
+background:#555555;
+}
+
+
+/* clear */
+.clear{clear:both;}
+
+/* footer */
+footer {width: 100%; height:100px; background: #555555;}
+#bot_copy {padding-top:18px; color: #ffffff; text-align: center; line-height: 18px; font-size: 12px;}

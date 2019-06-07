@@ -1,0 +1,48 @@
+/* title */
+h2 {
+	font-size: 22px;
+	line-height:32px;
+	color:#cc1628;
+	font-weight:600;
+}
+h3 {
+	font-size: 14px;
+	line-height:18px;
+	color:#555555;
+	font-weight:500;
+}
+
+.introduce{
+	text-align:center;
+	font-size: 14px;
+	line-height:18px;
+	color:#555555;
+	margin:50px 0;
+}
+
+.map-info{
+	width:400px;
+	float:left;
+	font-size: 14px;
+	line-height:32px;
+	color:#555555;
+	margin:50px 20px;
+}
+.map-info img{
+	vertical-align:middle;
+}
+.map-info p{
+	display: inline-block;}
+.map-info p strong{font-size:16px;}
+
+.road{
+	width:400px;
+	float:left;
+	font-size: 14px;
+	line-height:32px;
+	color:#555555;
+	margin:50px 20px;
+}
+.road p strong{font-size:16px;
+
+}
