@@ -1,0 +1,157 @@
+/* section */
+section {
+  width:880px;
+  height: 100%;
+  padding: 30px 50px;
+  background: #ffffff;
+}
+
+/* member form/modify모두 공통적용 */
+h2 {
+  font-size: 22px;
+  line-height:32px;
+  color:#cc1628;
+  font-weight:600;
+}
+h3 {
+  font-size: 14px;
+  line-height:18px;
+  color:#555555;
+  font-weight:500;
+}
+table{
+  width: 100%;
+  border-collapse: none;
+  border-spacing: none;
+}
+th{
+  background: #03686c;
+  font-weight: 500px;
+  font-size: 14px;
+  color:#ffffff;
+  line-height: 30px;
+}
+
+.con_info {
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 2px solid #cccccc;
+}
+
+.width_long {
+  width:590px;
+  display: inline-block;
+  padding:0 5px;
+}
+.width_shot{
+  display: inline-block;
+  width:190px;
+  padding:0 5px;
+  text-align:right;
+}
+
+.width_long p.title_info {
+  display: inline-block;
+  font-size: 14px;
+  color:#03686c;
+  line-height: 26px;
+  font-weight:600;
+}
+p.title_sub {
+  display: inline-block;
+  font-size: 14px;
+  color:#aaaaaa;
+  line-height: 26px;
+}
+
+.content{
+  margin: 0 auto;
+  width:780px;
+  font-size: 14px;
+  padding:20px 10px;
+  color:#555555;
+  line-height: 20px;
+  border-bottom: 1px dotted #cccccc;
+}
+.reple_area{
+  
+  margin: 20px auto;
+  width:790px;
+  padding:0 5px;
+}
+.reple_area p.title_sub {
+  display: inline-block;
+  font-size: 14px;
+  color:#555555;
+  line-height: 30px;
+  margin: 5px 0;
+}
+.reple_area input[type="password"]{
+	width: 188px;
+	height: 28px;
+	background: #ffffff;
+	border: #038a8f solid 1px;
+	padding: 0 5px;
+}
+.reple_area textarea{
+	float:left;
+    display: inline-block;
+	padding: 10px 5px;
+	width: 698px;
+	height: 68px;
+	background: #ffffff;
+	border: #038a8f solid 1px;
+	padding: 0 5px;
+}
+.reple_input input[type="button"]{
+ margin: 20px 0 20px 17px;
+}
+
+.reple_area .noreple{
+  width:770px;
+  background: #dddddd;
+  font-size: 14px;
+  padding:20px 10px;
+  color:#555555;
+  line-height: 60px;
+  text-align:center;
+  margin: 5px 0;
+}
+.reple{
+  width:790px;
+  background: #eeeeee;
+  
+}
+.reple_con{
+ width:760px;
+ font-size: 14px;
+ margin:0 10px;
+ padding:5px;
+ background: #ffffff;
+ color:#555555;
+ line-height: 18px;
+ text-align:left;
+}
+.reple_btn{
+   width:760px;
+   text-align: right;
+   padding: 10px;
+}
+
+input[type="button"]{
+  cursor: pointer;
+  display: inline-block;
+  margin:3px 0;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-weight:500;
+  border: 0;
+  padding:0 10px;
+  background: #068c91;
+}
+
+input[type="button"]:hover{
+	background:#ffa518;
+}

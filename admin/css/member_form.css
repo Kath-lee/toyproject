@@ -1,0 +1,168 @@
+/* section */
+section {
+	width:880px;
+	height: 100%;
+	padding: 30px 50px;
+	background: #ffffff;
+}
+
+/* member form/modify모두 공통적용 */
+h2 {
+  font-size: 22px;
+  line-height:32px;
+  color:#cc1628;
+  font-weight:600;
+}
+h3 {
+  font-size: 14px;
+  line-height:18px;
+  color:#555555;
+  font-weight:500;
+}
+form {
+width: 600px;
+margin:0 auto;
+padding:30px;
+} 
+
+form p {
+	display: inline-block;
+	width:90px;
+	line-height:40px;
+	color: #555555;
+	font-weight:500;
+	font-size: 14px;
+	margin-right:5px;
+	padding: 5px 0;
+}
+form span {
+	display: inline-block;
+	width:400px;
+	line-height:40px;
+	color: #555555;
+	font-weight:bold;
+	font-size: 14px;
+	margin-right:5px;
+	padding: 5px 0;
+
+}
+/* input요소 너비, 버튼 너비/색상 조절 */
+.input_400px input[type="text"], 
+input[type="password"],
+input[type="email"]  {
+	width: 388px;
+	margin-right: 5px;
+}
+.input_190px{display:inline-block;}
+.input_190px .dashline{
+	width: 19.5px;
+	text-align: center;
+	margin: 0;
+}
+.input_190px input[type="text"] {
+	width: 178px;
+}
+.input_400px2 input[type="text"] {
+	margin: 5px 95px;
+	width: 388px;
+}
+.input_400px input[type="button"], .input_190px input[type="button"]{
+	background:#cc1628;
+	width: 100px;
+	height: 40px;
+	margin-left: 5px;/***************주소 찾기버튼******************************************************************/
+}
+.mainbtn input[type="submit"] {
+	display: inline-block;
+	float: left;
+	width: 180px;
+	margin-top: 20px;
+	margin-left: 5px;
+	background: #cc1628;
+	height: 40px;
+}
+                                                                                                                             /*수정수정.mainbtn input[type="button"] {*/
+.mainbtn input[type="button"] {
+	display: inline-block;
+	float: left;
+	width: 180px;
+	margin-top: 20px;
+	margin-left: 5px;
+	background: #cc1628;
+	height: 40px;
+}
+
+/* input,btn basic form: 필드,버튼공통적용되는 디자인 영역 */
+input[type="text"], 
+input[type="password"],
+input[type="email"]{
+	background: #ffffff;
+	border: #cc1628 solid 1px;
+	padding: 0 5px;
+	height: 38px;
+}
+input[type="button"], input[type="reset"], input[type="submit"]{
+	cursor: pointer;
+	display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	font-weight:600;
+	border: 0;
+	padding:0px;
+}
+input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{
+	background: #ee283b;
+}
+
+table{
+  width: 100%;
+  border-collapse: none;
+  border-spacing: none;
+}
+th{
+  background: #cc1628;
+  font-weight: 500px;
+  font-size: 14px;
+  color:#ffffff;
+  line-height: 30px;
+}
+
+td {
+  font-size: 14px;
+  color:#555555;
+  line-height: 26px;
+  padding:0 5px;
+}
+
+td.no_ticket {
+  font-size: 14px;
+  color:#555555;
+  line-height: 100px;
+  text-align:center;
+  padding:0 5px;
+}
+
+tr{
+  border-bottom: 1px solid #cccccc;
+}
+
+td input[type="button"]{
+  cursor: pointer;
+  display: inline-block;
+  margin:3px 0;
+  width: 50px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-weight:500;
+  border: 0;
+  padding:0px;
+  background: #cc1628;
+}
+
+td input[type="button"]:hover, input[type="searchText"]:hover{
+  background: #ee283b;
+}
+

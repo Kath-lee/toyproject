@@ -1,0 +1,64 @@
+/* section */
+section {
+	width:980px;
+}
+
+/* Login form */
+.loginform {
+	margin: 0 auto;
+	padding-top: 80px;
+	text-align:middle;
+	max-width: 280px;
+	width: 280px;
+	vertical-align:middle;
+}
+h2 {
+	width: 285px;
+	font-size: 16px;
+	line-height:28px;
+	color:#cc1628;
+	font-weight:500;
+}
+.input_line{
+	width: 285px;
+	padding: 5px 0;
+}
+.loginform p {
+	display: inline-block;
+	width:70px;
+	line-height:40px;
+	color: #555555;
+	font-weight:500;
+	font-size: 14px;
+}
+.input_line input {
+	width: 188px;
+	height: 38px;
+	background: #f8f4e7;
+	border: #cc1628 solid 1px;
+	padding: 0 5px;
+}
+
+input[type="submit"]{
+	cursor: pointer;
+	display: block;
+	width: 270px;
+	height: 40px;
+	background: #cc1628;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	font-weight:600;
+	border: 0;
+	padding:0px;
+}
+input[type="submit"]:hover{
+	background: #ee263b;
+}
+
+
+footer{
+	background: #cc1628;
+	position: absolute;
+    bottom: 0px;
+}
